@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+/* Movie Page Container */
+div {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Input Fields and Button Styling */
+input[type="text"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form Section */
+div > div {
+  margin-bottom: 20px;
+}
+
+div > div input {
+  width: 48%;
+  margin-right: 4%;
+}
+
+div > div input:last-child {
+  margin-right: 0;
+}
+
+/* Movie List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+li p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+li button {
+  margin-right: 10px;
+}
+
+/* Edit Movie Modal */
+.edit-movie-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.edit-movie-container h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #007BFF;
+}
+
+.edit-movie-container input {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.edit-movie-container input:last-child {
+  margin-right: 0;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  div {
+    padding: 10px;
+  }
+
+  input[type="text"], input[type="date"] {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 12px;
+  }
+
+  .edit-movie-container input {
+    width: 100%;
+    margin-right: 0;
+  }
+}
